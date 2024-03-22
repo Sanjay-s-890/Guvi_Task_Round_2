@@ -1,0 +1,31 @@
+.body-bg {
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.position-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.bg-white {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 3rem;
+}
+
+.btn-custom {
+  box-shadow: none; 
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}

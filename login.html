@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body class="body-bg bg-light">
+  <div class="container col-lg-8 position-absolute top-50 start-50 translate-middle bg-white shadow-sm rounded-4">
+    <div class="row justify-content-center align-items-center text-center">
+      <div class="col-lg-8 p-4 w-50">
+        <h2 class="my-3 text-center">Welcome Back,</h2>
+        <div class="mb-3 text-center">
+          <img src="./images/favicon2.png" class="img-fluid w-25" alt="" />
+        </div>
+        <div class="mb-3">
+          <input
+            type="email" <!-- Changed input type to 'email' for email validation -->
+            class="form-control p-3 shadow-none rounded-pill"
+            id="email" <!-- Added id for better targeting in JavaScript -->
+            placeholder="Email"
+          />
+        </div>
+        <div class="mb-3">
+          <input
+            type="password" <!-- Changed input type to 'password' for password masking -->
+            class="form-control p-3 shadow-none rounded-pill"
+            id="password" <!-- Added id for better targeting in JavaScript -->
+            placeholder="Password"
+          />
+        </div>
+        <div class="mb-3">
+          <button
+            class="btn btn-primary p-3 btn-custom shadow-none rounded-pill w-100"
+            id="loginBtn" <!-- Added id for better targeting in JavaScript -->
+          >
+            Sign in
+          </button>
+        </div>
+        <div class="my-3">
+          <p>New user? Register <a href="./register.html">here</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+<script src="js/login.js"></script> <!-- Moved the script tag to the end of the body for better page loading -->
+</html>
